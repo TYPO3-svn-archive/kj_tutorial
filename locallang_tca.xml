@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>tca</type>
+		<description>Language labels for tca tables/fields belonging to extension 'kj_tutorials'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="doktype.I.187">Tutorial Category</label>
+			<label index="doktype.I.188">Tutorial</label>
+			<label index="pages.tabs.category">Tutorial Category</label>
+			<label index="pages.tabs.tutorial">Tutorial</label>
+			<label index="label.action">Action:</label>
+			<label index="label.select.1">Category/Listview</label>
+			<label index="label.select.2">Singleview</label>
+			<label index="label.select.3">Top XX</label>
+			<label index="label.select.4">Last XX</label>
+			<label index="label.select.5">Suche</label>
+			<label index="label.select.6">RSS Feed</label>
+			<label index="label.select.7">Add tutorial</label>
+		</languageKey>
+	</data>
+</T3locallang>

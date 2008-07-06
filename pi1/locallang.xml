@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_kjtutorials_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="error">ERROR: </label>
+			<label index="error_noAction">You must select an action!</label>
+			<label index="error_templateNotFound">Template not found!</label>
+			<label index="error_category_notavaiable">No categories avaiable!</label>
+			<label index="error_tutorials_notavaiable">No tutorials avaiable!</label>
+
+			<label index="label_category_tutorialSingular">Tutorial</label>
+			<label index="label_category_tutorials">Tutorials</label>
+			<label index="label_category_subcategoriesSingular">Subcategory</label>
+			<label index="label_category_subcategories">Subcategories</label>
+
+			<label index="label_tutorialadd_input_title">Title:</label>
+			<label index="label_tutorialadd_input_abstract">Abstract:</label>
+			<label index="label_tutorialadd_input_tutorial">Tutorial:</label>
+		</languageKey>
+	</data>
+</T3locallang>

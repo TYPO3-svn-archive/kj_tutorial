@@ -1,0 +1,20 @@
+
+plugin.tx_kjtutorials_pi1 {
+ 
+  # Path for HTML template 
+  templateFile = EXT:kj_tutorials/pi1/template.html
+   
+  category {
+    startUid = 48
+    imageFileMaxW = 150 
+    imageFileMaxH = 100
+    defaultImage = typo3conf/ext/kj_tutorials/res/img/default_category.gif
+  }
+  
+  listview {
+    abstractCropLen = 120
+    abstractCropAppendText = ...
+    abstractCropUseNextSpace = 1
+  }  
+  
+}

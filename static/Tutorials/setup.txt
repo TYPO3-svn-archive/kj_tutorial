@@ -1,0 +1,161 @@
+
+plugin.tx_kjtutorials_pi1 {
+ 
+  # Path for HTML template 
+  templateFile = {$plugin.tx_kjtutorials_pi1.templateFile}
+   
+  category {   
+    startUid = {$plugin.tx_kjtutorials_pi1.category.startUid}
+   
+    # Category image
+    image = IMAGE
+    image.file = 
+    image.file {
+   	  maxW = {$plugin.tx_kjtutorials_pi1.category.imageFileMaxW}
+   	  maxH = {$plugin.tx_kjtutorials_pi1.category.imageFileMaxH}
+    }
+    defaultImage = {$plugin.tx_kjtutorials_pi1.category.defaultImage}    
+  }
+  
+  listview {
+    abstractCropLen = {$plugin.tx_kjtutorials_pi1.listview.abstractCropLen}
+    abstractCropAppendText = {$plugin.tx_kjtutorials_pi1.listview.abstractCropAppendText}
+    abstractCropUseNextSpace = {$plugin.tx_kjtutorials_pi1.listview.abstractCropUseNextSpace}
+  }
+  
+  
+  
+  _CSS_DEFAULT_STYLE (
+ 
+ 
+ 
+ 	.tx-kjtutorials-pi1 a {
+      text-decoration:none;
+      color:#000; 
+      font-family:Verdana;
+      font-size:9px;      	
+ 	}
+ 
+ 	.tx-kjtutorials-pi1 {      
+      color:#000; 
+      font-family:Verdana;
+      font-size:9px;      	
+ 	}
+ 
+ 	.tx-kjtutorials-pi1 h1 {      
+      color:#000; 
+      font-family:Verdana;
+      font-size:12px;
+      padding:0px;
+      margin:0px;      	
+ 	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    #kj_tutorials_category_frame {      
+      padding:5px;
+    }
+ 
+    #kj_tutorials_category_frame a {
+      color:#000;
+    }
+    
+    #kj_tutorials_category_frame h2 a {
+      color:#FFF;
+      font-size:12px;
+    }
+ 
+    .kj_tutorials_category_gobacklink {            
+      margin-bottom:10px;
+    }
+ 
+    .kj_tutorials_category_item {            
+      width:150px;
+      height:200px;
+      padding:5px;
+      background-color:#FF8700;
+      border:1px solid #251D15;
+      margin-right:10px;
+      margin-bottom:10px;
+      float:left;
+    }
+    
+    #kj_tutorials_category_frame h2 {
+      font-size:12px;
+      text-align:center;
+      font-weight:bold;      
+    }
+    
+    .kj_tutorials_category_itemSubtitle {
+      margin-top:5px;
+      margin-bottom:5px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #kj_tutorials_tutorial_frame {      
+      padding:5px;
+      font-family:Verdana;
+      font-size:9px;
+    }  
+    
+    #kj_tutorials_tutorial_frame h3 {
+      margin:0px;
+      padding:0px;
+    }      
+    
+    #kj_tutorials_tutorial_frame h3 a {
+      color:#FFF;
+      font-size:11px;
+      margin:0px;
+      padding:0px;
+    }      
+    
+    .kj_tutorials_tutotial_item {                        
+      padding:5px;
+      background-color:#FF8700;
+      border:1px solid #251D15;
+      margin-right:10px;
+      margin-bottom:10px;  
+    }    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #kj_tutorials_addtutorial_frame {      
+      padding:5px;
+      font-family:Verdana;
+      font-size:9px;
+    }      
+    
+    
+    
+    
+    
+    
+    
+    
+    .kj_tutorials_clearboth {            
+      clear:both;
+    }
+ 	
+  )  
+  
+}

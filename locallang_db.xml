@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'kj_tutorials'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_kjtutorials_single">Tutorial: SingleView</label>
+			<label index="tx_kjtutorials_single.title">Title</label>
+			<label index="tx_kjtutorials_single.abstract">Abstract</label>
+			<label index="tx_kjtutorials_single.tutorial">Tutorial</label>
+			<label index="tx_kjtutorials_single.tags">Tags</label>
+			<label index="tx_kjtutorials_single.source">Source</label>
+			<label index="tx_kjtutorials_single.result_link">result_link</label>
+			<label index="tx_kjtutorials_single.result_image">result image</label>
+			<label index="tx_kjtutorials_single.nofeuser_name">Name (if no fe_user)</label>
+			<label index="tx_kjtutorials_single.nofeuser_email">E-Mail (if no fe_user)</label>
+			<label index="tx_kjtutorials_single.nofeuser_website">Website (if no fe_user)</label>
+			<label index="tx_kjtutorials_single.feuser_uid">FE User</label>
+			<label index="tx_kjtutorials_single.allow_comments">Allow comments</label>
+			<label index="tx_kjtutorials_comment">Tutorial: Comments</label>
+			<label index="tx_kjtutorials_comment.comment">Comment</label>
+			<label index="tx_kjtutorials_comment.nofeuser_name">Name (if no fe_user)</label>
+			<label index="tx_kjtutorials_comment.nofeuser_email">E-Mail (if no fe_user)</label>
+			<label index="tx_kjtutorials_comment.nofeuser_website">Website (if no fe_user)</label>
+			<label index="tx_kjtutorials_comment.feuser_uid">FE User</label>
+			<label index="be_users.tx_kjtutorials_subscription">Tutorial Subscription</label>
+			<label index="tt_content.list_type_pi1">Tutorial Extension</label>
+		</languageKey>
+	</data>
+</T3locallang>

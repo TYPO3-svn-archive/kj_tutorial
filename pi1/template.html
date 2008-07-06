@@ -1,0 +1,191 @@
+
+<!-- 
+
+This template show all categories
+
+Avaiable marker
+---------------------------------------------------------------------------------
+###GOBACKLINK### 				- Go back link
+###TITLE### 					- Category title
+###SUBTITLE###					- Category subtitle
+###IMAGE###						- Category image
+###COUNT_TUTORIAL###			- Count of tutorials in this category
+###COUNT_TUTORIAL_TEXT###		- Label for count
+###COUNT_SUBCATEGORIES###		- Count of subcategories
+###COUNT_SUBCATEGORIES_TEXT###	- Label for count
+
+-->
+
+<!-- ###TEMPLATE_SHOWCATEGORIES### begin -->
+<div id="###EXTKEY###_category_frame">
+	<div class="###EXTKEY###_category_gobacklink">###GOBACKLINK###</div> 
+	<div class="###EXTKEY###_sitetitle">
+		<h1>###SITETITLE###</h1>
+	</div>
+	<div class="###EXTKEY###_sitesubtitle">###SITE_SUBTITLE###</div>
+	<br/><br/>
+	
+	<!-- ###TEMPLATE_SHOWCATEGORIES_ITEM### begin -->
+		<div class="###EXTKEY###_category_item">
+			<div class="###EXTKEY###_category_itemTitle">
+				<h2>###TITLE###</h2>
+			</div>			
+			<div class="###EXTKEY###_category_itemImage">###IMAGE###</div>
+			<div class="###EXTKEY###_category_itemSubtitle">###SUBTITLE###</div>
+			<div class="###EXTKEY###_category_itemCountTutorial">###COUNT_TUTORIAL### ###COUNT_TUTORIAL_TEXT###</div>
+			<div class="###EXTKEY###_category_itemCountSubcategory">###COUNT_SUBCATEGORIES### ###COUNT_SUBCATEGORIES_TEXT###</div>
+		</div>		
+	<!-- ###TEMPLATE_SHOWCATEGORIES_ITEM### end -->
+	<div class="###EXTKEY###_clearboth">&nbsp;</div>
+	
+</div>
+<!-- ###TEMPLATE_SHOWCATEGORIES### end -->
+
+<!-- 
+
+This template is used if there is no main category avaiable
+
+Avaiable marker
+---------------------------------------------------------------------------------
+###MESSAGE### 				- Message if there are no categories avaiable
+
+-->
+
+<!-- ###TEMPLATE_SHOWCATEGORIES_NOTAVAIABLE### begin -->
+	###MESSAGE###
+<!-- ###TEMPLATE_SHOWCATEGORIES_NOTAVAIABLE### end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+This template is for the listview
+
+Avaiable marker
+---------------------------------------------------------------------------------
+###TITLE### 					- The title of the tutorial
+###ABSTRACT###					- Abstract text of the tutorial
+
+-->
+
+<!-- ###TEMPLATE_LISTVIEW### begin -->
+<div id="###EXTKEY###_tutorial_frame">
+
+	<!-- ###TEMPLATE_LISTVIEW_ITEM### begin -->
+		<div class="###EXTKEY###_tutotial_item">
+			<div>
+				<h3>###TITLE###</h3>
+			</div>
+			<div>###ABSTRACT###</div>
+		</div>
+	<!-- ###TEMPLATE_LISTVIEW_ITEM### end -->
+
+</div>	
+<!-- ###TEMPLATE_LISTVIEW### end -->
+
+<!-- 
+
+This template is used if there is no tutorial avaiable
+
+Avaiable marker
+---------------------------------------------------------------------------------
+###MESSAGE### 				- Message if there are no categories avaiable
+
+-->
+
+<!-- ###TEMPLATE_LISTVIEW_NOTAVAIABLE### begin -->
+<div id="###EXTKEY###_tutorial_frame">
+	<div class="###EXTKEY###_tutotial_item">###MESSAGE###</div>
+</div>
+<!-- ###TEMPLATE_LISTVIEW_NOTAVAIABLE### end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+This template is for the add tutorial
+
+Avaiable marker
+---------------------------------------------------------------------------------
+###FORM_ACTION### 					- Form action url
+###VALUE_TITLE###					- Value from title field
+###LABEL_TITLE###					- Field label from title				
+###LABEL_ABSTRACT###				- Field label from abstract
+###LABEL_TUTORIAL###				- Field label from tutorial
+
+-->
+
+<!-- ###TEMPLATE_ADDTUTORIAL### begin -->
+<div id="###EXTKEY###_addtutorial_frame">
+
+	###TEST###
+	
+	<form action="###FORM_ACTION###" method="post">
+		<div id="title">
+			###LABEL_TITLE###<br/>
+			<input type="text" name="###EXTKEY###[title]" value="###VALUE_TITLE###" />
+		</div>
+		<div id="htmleditor_abstract">###LABEL_ABSTRACT###</div>
+		<div id="htmleditor_tutorials">###LABEL_TUTORIAL###</div>
+		
+		<input type="submit" name="send" value="SENDEN" />		
+	</form>
+
+</div>	
+<!-- ###TEMPLATE_ADDTUTORIAL### end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
